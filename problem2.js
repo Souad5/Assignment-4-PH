@@ -27,5 +27,5 @@ function validEmail(email) {
     return true;
 }
 
-let result = validEmail("jhankar@hero.com");
+let result = validEmail(".jhankar@hero.com");
 console.log(result);
