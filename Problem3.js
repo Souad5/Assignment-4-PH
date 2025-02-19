@@ -25,5 +25,5 @@ function electionResult(votes) {
         return "Draw";
     }
 }
-let result = electionResult("banana, Mango");
+let result = electionResult(["mango", "BananA", "na vote", "na vote"]);
 console.log(result);

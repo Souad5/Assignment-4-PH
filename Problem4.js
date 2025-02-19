@@ -8,3 +8,8 @@ function isBestFriend(f1, f2) {
     }
     return false;
 }
+let result = isBestFriend({ name:"kashem", roll: 2, bestFriend: 11},
+    "Kashem er Kono Bondhu Nai"
+    
+    )
+console.log(result);

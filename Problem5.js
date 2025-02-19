@@ -17,3 +17,5 @@ function calculateWatchTime(times) {
 
     return { hour, minute, second };
 }
+let result = calculateWatchTime([100,3800])
+console.log(result)

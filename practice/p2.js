@@ -2,7 +2,7 @@ function  validEmail( email ) {
     if(typeof email !== "string"){
         return "Invalid";
     }
-    let specialChars = "._+-@";
+    let specialChars = " ! @ # $ % ^ & * ( ) - _ = + \ | [ ] { } ; : / ? . > ";
     if (specialChars.includes(email[0])) {
         return false;
     }
@@ -21,5 +21,5 @@ function  validEmail( email ) {
     }
     return true;
 }
-let result = validEmail("");
+let result = validEmail("-souad@gmail.com");
 console.log(result)
